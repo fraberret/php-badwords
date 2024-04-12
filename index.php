@@ -12,6 +12,10 @@ $message='ciao'
     <title>Document</title>
 </head>
 <body>
-    <h1><?php echo $message?></h1>
+    <form action="" method="GET">
+        <input type="text" name="paragraph" id="">
+        <input type="text" name="wordToCensure" id="">
+        <button>Click Here</button>
+    </form>
 </body>
 </html>

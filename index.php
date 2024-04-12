@@ -1,8 +1,3 @@
-<?php
-
-$message='ciao'
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,10 +7,10 @@ $message='ciao'
     <title>Document</title>
 </head>
 <body>
-    <form action="" method="GET">
+    <form action="censure_get.php"  method="GET">
         <input type="text" name="paragraph" id="">
         <input type="text" name="wordToCensure" id="">
-        <button>Click Here</button>
+        <button type="submit">Click Here</button>
     </form>
 </body>
 </html>

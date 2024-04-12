@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="censure_get.php"  method="GET">
+    <form action="censure_get.php"  method="POST">
         <input type="text" name="paragraph" id="">
         <input type="text" name="wordToCensure" id="">
         <button type="submit">Click Here</button>
